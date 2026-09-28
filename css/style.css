@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    color: #5FB4A2;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 32px;
+    margin: auto;
+    padding-bottom: 65px;
+    padding-top: 65px;
+
+}
+nav div{
+    display: flex;
+    gap: 42px;
+}
+nav div a{
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+}
+header{
+    width: 1110px;
+    height: 600px;
+    margin: auto;
+    background-image: url(../img/1-rasm.png);
+    position: relative;
+}
+header .box1{
+    width: 445px;
+    height: 357px;
+    background-color: #fafafa;
+    position: absolute;
+    bottom: 0;
+}
+header  h1{
+width: 390px;
+font-size: 50px;
+line-height: 50px;
+color: #33323d;
+margin-top: 56px;
+margin-bottom: 53px;
+}
+header .box1 button{
+    width: 200px;
+height: 48px;
+background: #203a4c;
+font-family: "Public Sans", sans-serif;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+border: none;
+}
+main .s1{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:150px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+main .s1 p{
+    margin-top: 28px;
+    margin-bottom: 24px;
+    font-family: "Public Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #33323d;
+}
+main .s1 div h2{
+    font-family: "Ibarra Real Nova", sans-serif;
+font-weight: 700;
+font-size: 40px;
+line-height: 105%;
+letter-spacing: -0.01em;
+color: #33323d;
+}
+main .s1 div button{
+    width: 202px;
+height: 48px;
+background-color: transparent;
+border: 1px solid #33323D;
+}
+main .s2{
+    width: 1110px;
+    height: 84px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 151px 165px 149px 165px ;
+}
+main .s2 h3{
+font-weight: 750;
+font-size: 40px;
+line-height: 105%;
+letter-spacing: -0.01em;
+color: #33323d;
+}
+main .s2 hr{
+    width: 500px;
+    height: 1px;
+    background: #33323d;
+    opacity: 0.15;
+}
+main .s2 button{
+    width: 162px;
+height: 48px;
+background-color: transparent;
+border: 1px solid #33323D;
+}
+footer{
+width: 1440px;
+height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+background: #33323d;
+position: relative;
+}
+footer .p{
+    display: flex;
+    gap: 42px;
+ position: absolute;
+ left: 274px;
+    font-family: "Public Sans", sans-serif;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #fff;
+}
+footer div {
+  color: white;
+  font-size: 25px;
+  margin-right: 165px;
+  display: flex;
+  gap: 16px;
+}
+footer img{
+    margin-left: 165px;
+}

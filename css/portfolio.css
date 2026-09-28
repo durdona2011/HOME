@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    color: #5FB4A2;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 32px;
+    margin: auto;
+    padding-bottom: 65px;
+    padding-top: 65px;
+
+}
+nav div{
+    display: flex;
+    gap: 42px;
+}
+nav div a{
+    text-decoration: none;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #33323d;
+}
+main .s1, main .s2, main .s3 , main .s4{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 125px;
+    margin-bottom: 80px;
+}
+main .s1 p, main .s2 p, main .s3 p, main .s4 p{
+    margin-top: 28px;
+    margin-bottom: 24px;
+    font-family: "Public Sans", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 188%;
+color: #33323d;
+
+} 
+main .s1 h2, main .s2 h2, main .s3 h2, main .s4 h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 105%;
+letter-spacing: -0.01em;
+color: #33323d;
+}
+main .s1 button, main .s2 button, main .s3 button, main .s4 button{
+border: 1px solid #33323d;
+width: 175px;
+height: 48px;
+font-family: "Public Sans", sans-serif;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #33323d;
+background-color: transparent;
+
+}
+main .s2{
+    width: 1110px;
+    height: 84px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 151px 165px 149px 165px ;
+}
+main .s2 h3{
+font-weight: 750;
+font-size: 40px;
+line-height: 105%;
+letter-spacing: -0.01em;
+color: #33323d;
+}
+main .s2 hr{
+    width: 500px;
+    height: 1px;
+    background: #33323d;
+    opacity: 0.15;
+}
+main .s2 button{
+    width: 162px;
+height: 48px;
+background-color: transparent;
+border: 1px solid #33323D;
+}
+footer{
+width: 1440px;
+height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+background: #33323d;
+position: relative;
+}
+footer .p{
+    display: flex;
+    gap: 42px;
+ position: absolute;
+ left: 274px;
+    font-family: "Public Sans", sans-serif;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.17em;
+text-transform: uppercase;
+color: #fff;
+}
+footer div {
+  color: white;
+  font-size: 25px;
+  margin-right: 165px;
+  display: flex;
+  gap: 16px;
+}
+footer img{
+    margin-left: 165px;
+}
